@@ -7,6 +7,7 @@
     <Content category="Contenu web" v-bind:categoryType='["Site internet", "Blog"]' linkName="découvrir"/>
     <Content category="Télévision" v-bind:categoryType='["Télévision", "M6", "Canal +", "France 2", "BFM"]' linkName="visionner"/>
     <Content category="Radio" v-bind:categoryType='["Radio"]' linkName="écouter"/>
+    <!-- <Contentbis/> -->
     <Footer/>
   </div>
 </template>
@@ -16,6 +17,7 @@
   import Header from './components/Header.vue';
   import Presentation from './components/Presentation.vue';
   import Content from './components/Content.vue';
+  // import Contentbis from './components/Contentbis.vue'
   import Footer from './components/Footer.vue';
 
 
@@ -25,6 +27,7 @@
       Header,
       Presentation,
       Content,
+      // Contentbis,
       Footer
     }
   }
